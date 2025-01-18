@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    background-color:#1F2937;
+    font-family:'Roboto';
+    color: #F9FAF8;
+    text-align: center;
+    padding:24px;
+}
+.bluebox{
+    background-color: #3882F6;
+    padding: 50px 90px;
+    margin: 90px 200px;
+    border-radius: 4px;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.b1{
+    font-size: 27px;
+    font-weight: 800;
+}
+
+button {
+    background-color: #3882F6;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border-width: 0px;
+    font-weight: 700;
+    font-size: 24px;
+}
+button:hover{
+    background-color: #73a4f5;
+    font-size: 27px;
+    border-width: 0px;
+}
+
+.click button{
+    border-width: 2px;
+    border-color: #F9FAF8;
+}
+.greybox{
+    background-color: #E5E7EB;
+    padding: 80px 150px;
+}
+.cont {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
+.author{
+    text-align: right;
+    font-weight: 900;
+    font-size: 18px;
+}
+.white{
+    padding: 50px 150px 80px;
+}
+
+.head{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.cards{
+    display:flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.box{
+    height:100px;
+    flex-basis: 160px;
+    border-radius: 5px;
+    border-color: #3882F6;
+    border-radius: 4px;
+    border-style:inset;
+    padding: 8px;
+}
+.header, .title{
+    background-color: #1F2937;
+    padding:20px 120px 80px;
+    color: #F9FAF8;
+    display:flex;
+}
+
+.header{
+    display:flex;
+    color: #F9FAF8;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+.links{
+    display:flex;
+    justify-content: flex-end;
+    gap:8px;
+
+}
+.he1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.stext{
+    font-size:18px;
+}
+.right{
+    padding: 80px 100px;
+    background-color: #E5E7EB;
+    color:#000000;
+    text-align: center;
+}
+.left{
+    margin-right: 100px;
+}
